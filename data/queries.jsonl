@@ -1,0 +1,42 @@
+{"id": "refund-0", "query": "How long does an approved refund take?", "relevant_document_ids": ["refund"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "refund-1", "query": "Where is an approved reimbursement sent?", "relevant_document_ids": ["refund"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "refund-2", "query": "Can support promise a bank posting date?", "relevant_document_ids": ["refund"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "rebooking-0", "query": "Does rebooking guarantee a reserved seat?", "relevant_document_ids": ["rebooking"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "rebooking-1", "query": "What must an agent verify before issuing a replacement ticket?", "relevant_document_ids": ["rebooking"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "rebooking-2", "query": "Can I request an alternative flight on the same route?", "relevant_document_ids": ["rebooking"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "cancellation-0", "query": "Does a cancellation automatically refund my ticket?", "relevant_document_ids": ["cancellation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "cancellation-1", "query": "What information is recorded when the airline cancels a flight?", "relevant_document_ids": ["cancellation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "cancellation-2", "query": "Who chooses between refund and replacement travel after airline cancellation?", "relevant_document_ids": ["cancellation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "baggage-0", "query": "Where do I report a missing suitcase?", "relevant_document_ids": ["baggage"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "baggage-1", "query": "What is a property irregularity report?", "relevant_document_ids": ["baggage"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "baggage-2", "query": "Should I keep my bag tags for tracing?", "relevant_document_ids": ["baggage"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "checkin-0", "query": "When does online check-in open?", "relevant_document_ids": ["checkin"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "checkin-1", "query": "What details does the check-in portal need?", "relevant_document_ids": ["checkin"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "checkin-2", "query": "Does online check-in waive the boarding gate deadline?", "relevant_document_ids": ["checkin"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "accessibility-0", "query": "How early should I request wheelchair assistance?", "relevant_document_ids": ["accessibility"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "accessibility-1", "query": "Who reviews late mobility assistance requests?", "relevant_document_ids": ["accessibility"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "accessibility-2", "query": "What assistance information should an agent record?", "relevant_document_ids": ["accessibility"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "name-0", "query": "Can I transfer my ticket through a name correction?", "relevant_document_ids": ["name"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "name-1", "query": "Who approves a passenger spelling correction?", "relevant_document_ids": ["name"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "name-2", "query": "Which document is checked for a spelling error?", "relevant_document_ids": ["name"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "compensation-0", "query": "Can a refund prediction prove compensation eligibility?", "relevant_document_ids": ["compensation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "compensation-1", "query": "Who reviews compensation claims?", "relevant_document_ids": ["compensation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "compensation-2", "query": "Are compensation requests separate from ticket refunds?", "relevant_document_ids": ["compensation"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "payment-0", "query": "How are duplicate card charges investigated?", "relevant_document_ids": ["payment"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "payment-1", "query": "Can an authorization look like a second settled charge?", "relevant_document_ids": ["payment"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "payment-2", "query": "May support collect full card numbers in chat?", "relevant_document_ids": ["payment"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "voucher-0", "query": "Must a passenger accept a travel voucher?", "relevant_document_ids": ["voucher"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "voucher-1", "query": "Can a voucher replace a requested cash refund without confirmation?", "relevant_document_ids": ["voucher"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "voucher-2", "query": "What voucher terms should be explained?", "relevant_document_ids": ["voucher"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "connection-0", "query": "Are separate tickets automatically protected for missed connections?", "relevant_document_ids": ["connection"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "connection-1", "query": "What checks apply to a revised onward connection?", "relevant_document_ids": ["connection"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "connection-2", "query": "Does a protected connection need seat availability?", "relevant_document_ids": ["connection"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "contact-0", "query": "How can I update the email address linked to my booking?", "relevant_document_ids": ["contact"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "contact-1", "query": "Does changing a telephone number change ticket ownership?", "relevant_document_ids": ["contact"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "contact-2", "query": "What verification is needed for contact-detail changes?", "relevant_document_ids": ["contact"], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-0", "query": "What is the quantum entanglement theorem?", "relevant_document_ids": [], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-1", "query": "Recommend a vegetarian lasagna recipe", "relevant_document_ids": [], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-2", "query": "Explain volcanic basalt chemistry", "relevant_document_ids": [], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-3", "query": "How do I configure Kubernetes ingress?", "relevant_document_ids": [], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-4", "query": "What are the cinema opening hours?", "relevant_document_ids": [], "airline": "EXAMPLE", "as_of": "2026-10-27"}
+{"id": "unknown-carrier", "query": "When does the refund arrive?", "relevant_document_ids": [], "airline": "NOT_IN_CORPUS", "as_of": "2026-10-27"}

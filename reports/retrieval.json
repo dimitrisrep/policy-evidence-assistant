@@ -1,0 +1,51 @@
+{
+  "corpus_sha256": "7463076098b44073b3c6a5233bbbaf9f575ddaf55312822c2058ba38a064f410",
+  "queries_sha256": "8dc9ae2d17d6c391db7855e21a691a0196d246bc04d9f83934b2d38cfcf38fb9",
+  "dataset_type": "authored fictional policy corpus and queries; regression evaluation only",
+  "answerable_queries": 36,
+  "unanswerable_queries": 6,
+  "methods": {
+    "bm25": {
+      "mrr_at_5": 0.9861111111111112,
+      "hit_rate_at_1": 0.9722222222222222,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0
+    },
+    "tfidf": {
+      "mrr_at_5": 1.0,
+      "hit_rate_at_1": 1.0,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0
+    },
+    "hybrid": {
+      "mrr_at_5": 1.0,
+      "hit_rate_at_1": 1.0,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0
+    }
+  },
+  "failures": [
+    {
+      "query_id": "compensation-2",
+      "method": "bm25",
+      "rank": 2,
+      "returned_document_ids": [
+        "connection",
+        "compensation",
+        "accessibility",
+        "rebooking",
+        "contact"
+      ]
+    },
+    {
+      "query_id": "unknown-4",
+      "method": "hybrid_answerability",
+      "reason": "unanswerable_query_returned_evidence",
+      "returned_document_ids": [
+        "checkin"
+      ]
+    }
+  ],
+  "unanswerable_refusal_rate": 0.8333333333333334,
+  "generation_evaluation": "Extractive path and mocked LLM contract tested; no live language model evaluated."
+}

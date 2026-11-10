@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "policy-evidence-assistant"
+version = "0.1.0"
+description = "Evaluated hybrid retrieval and quote-grounded answers with optional local LLM selection"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = ["numpy>=1.26,<3", "scikit-learn>=1.6,<1.10", "pydantic>=2.9,<3",
+                "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "httpx>=0.27,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+policy-evidence = "policy_evidence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
